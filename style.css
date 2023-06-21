@@ -1,0 +1,10 @@
+body {
+    width: 90vw;
+    height: 50 vh;
+    border: solid 0.2vw aqua;
+
+}
+
+h1 {
+    background-color: blueviolet;
+}
