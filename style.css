@@ -1,35 +1,3 @@
-.text {
-    margin-left: 20px;
-    width: 500px;
-    height: 500px;
-    border-style: groove;
-    border-width: 0.5vw;
-    border-color: rgb(5, 75, 156);
-    background-color: aqua;
-    overflow-y: scroll;
-    overflow-x: visible;
-    transition: all 1s linear 0s;
-    animation: block 10s linear alternate infinite;
-    cursor: alias;
-}
-
-@keyframes block {
-    from {
-        margin-left: 0px;
-    }
-    to {
-        margin-left: 1000px;
-    }
-}
-    
-
-
-.text:hover {
-    transform: scale(1.1, 1.1);
-    border-style: double;
-    border-width: 0.5vw;
-    border-color: rgb(5, 156, 58);
-    background-color: rgb(115, 163, 163);
-    cursor: cell;
-
+h1 {
+    color: blue;
 }
